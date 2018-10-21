@@ -1,0 +1,20 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>280</x><y>150</y><w>250</w><h>240</h></coordinates><panel_attributes>Laskin
+--
+-int Luvut &lt;List&gt;
+-int sum
+-int length
+
+
+--
++ AddNumber(int)
++ CalcMedian()
++ CalcMean()
+--
+Responsibilities
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>680</x><y>400</y><w>140</w><h>70</h></coordinates><panel_attributes>return Luvut(length/2)
+bg=white</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>250</y><w>330</w><h>60</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>310;40;270;10;10;10</additional_attributes></element><element><id>UMLNote</id><coordinates><x>630</x><y>500</y><w>170</w><h>70</h></coordinates><panel_attributes>return sum/length
+   
+bg=white</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>270</y><w>340</w><h>170</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>320;150;260;20;10;10</additional_attributes></element><element><id>UMLNote</id><coordinates><x>680</x><y>270</y><w>140</w><h>70</h></coordinates><panel_attributes>Luvut.Add(a)
+sum = sum + a
+length = length + 1
+bg=white</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>350</x><y>290</y><w>300</w><h>250</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>280;230;250;20;10;10</additional_attributes></element></diagram>
