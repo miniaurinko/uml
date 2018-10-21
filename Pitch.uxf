@@ -1,0 +1,29 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>490</x><y>230</y><w>290</w><h>280</h></coordinates><panel_attributes>Pitch
+--
+&lt;&lt;constructor&gt;&gt; init(note: String);
+&lt;&lt;constructor&gt;&gt; init(note:Pitch);
+
+-pitch :int
+-pitchS :string
+-Pitches
+--
+new Pitch(string)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>950</x><y>330</y><w>340</w><h>280</h></coordinates><panel_attributes>if(pitches.contains(input.toInt()) == false){
+    Pitch input = new Pitch(input)
+    Pitches.AddPitch(input)
+}
+else(return pitches(input)
+
+if(pitches.contains(input.toInt()+1) == false){
+    Pitch input.nextPitch() = new Pitch(input.nextPitch()
+    Pitches.AddPitch(input.nextPitch())
+}
+else(return pitches(input.nextPitch()))
+
+bg=white</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>330</y><w>380</w><h>30</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>360;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>530</x><y>590</y><w>210</w><h>190</h></coordinates><panel_attributes>Pitches
+--
+-List&lt;Pitch&gt;
+--
++AddPitch(String)
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>640</x><y>500</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element></diagram>
